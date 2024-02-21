@@ -7,7 +7,7 @@
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.2.1",
-        "solojsx": "^1.0.0",
+        "solojsx": "^1.0.4",
         "typescript": "^5.2.2",
         "vite": "^5.0.8"
     }
