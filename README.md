@@ -1,2 +1,1 @@
-# SoloJSX-template-ts
-SoloJSX-template-ts
+# SoloJSX + Vite + TypeScript
