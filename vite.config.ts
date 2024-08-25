@@ -1,8 +1,11 @@
-import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    plugins: [react({
-        jsxRuntime: 'classic'
-    })]
+    esbuild: {
+        jsx: "transform",
+        jsxDev: false,
+        jsxImportSource: "solojsx",
+        jsxInject: `import solojsx from 'solojsx'`,
+        jsxFactory: "solojsx",
+    },
 });

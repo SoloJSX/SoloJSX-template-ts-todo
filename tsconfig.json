@@ -21,8 +21,11 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         /* SoloJSX */
-        "jsx": "react",
-        "jsxFactory": "solojsx"
+        "jsx": "react-jsx",
+        "jsxImportSource": "solojsx",
+        "types": [
+            "solojsx"
+        ]
     },
     "include": [
         "src"
