@@ -6,6 +6,6 @@ export default defineConfig({
         jsxDev: false,
         jsxImportSource: "solojsx",
         jsxInject: `import solojsx from 'solojsx'`,
-        jsxFactory: "solojsx",
-    },
+        jsxFactory: "solojsx"
+    }
 });
