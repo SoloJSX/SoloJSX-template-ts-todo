@@ -1,1 +1,1 @@
-# SoloJSX + Vite + TypeScript
+# SoloJSX Todo List
