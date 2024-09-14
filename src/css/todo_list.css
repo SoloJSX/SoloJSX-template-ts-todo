@@ -51,10 +51,6 @@
     min-height: 16px;
 }
 
-.todoListItemDate {
-    color: #fffa;
-}
-
 .todoListItem {
     position: relative;
     width: 100%;
