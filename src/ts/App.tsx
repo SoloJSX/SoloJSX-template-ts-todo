@@ -3,7 +3,7 @@ const input = <input id="todoInput" type="text" />;
 
 const add = () => {
     const e = <div class="todoListItem">{input.value}</div>;
-    e.append(<div class="removeBtn" onClick={e.remove}> Remove </div>);
+    e.append(<div class="removeBtn" onClick={() => e.remove()}> Remove </div>);
     list.prepend(e);
     input.value = "";
 };
