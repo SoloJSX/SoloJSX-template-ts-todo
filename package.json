@@ -9,6 +9,6 @@
     "vite": "^5.4.2"
   },
   "dependencies": {
-    "solojsx": "2.4.11"
+    "solojsx": "^2.4.11"
   }
 }
